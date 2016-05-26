@@ -8,12 +8,12 @@
 
    The UI Toolkit consists of the Virtual Labs User Interface Template
    version 3.0.  The objective of using UI 3.0 Toolkit is to
-   standardize the formats of all labs according to the UI 3.0
+   standardize the formats of all labs according to UI 3.0
    Template. The UI 3.0 Toolkit helps you achieve the following:
 
-** How to Identify the Template of your Lab
+** How to Identify template of your Lab
      
-     Before you start using the UI 3.0 Toolkit, you need to understand
+     Before you start using UI 3.0 Toolkit, you need to understand
      the structure of the lab.
      
      [[images/Lab Structure.png]]
@@ -30,25 +30,23 @@
       Pre-requisites.html, Feedback.html etc., files which are related to the
       UI-3.0 version.
 
-** How to Convert Unstructured Labs to UI 3.0 Template and Validate the Conversion
+** How to Convert Unstructured Labs to UI 3.0 template and validate the Conversion
     
     Depending on the current structure of your lab, you need to follow
-    the steps below to convert your lab to UI 3.0 Template.
+    the steps below to convert your lab to UI 3.0 template.
   
  -  Take the reference of [[https://github.com/Virtual-Labs/physical-sciences-iiith][physical-sciences-lab]] of IIITH, which has been
     already converted to UI-3.0.
  
 -   Make your lab to the above mentioned structure.
     Copy themes/green-icon folder into the src directory of your lab.
-    This hold all the files/folders which are related to UI-3.0 version.
+    This folder has all files/folders related to UI-3.0 version.
 
--   Inside the "src/lab" and "src/lab/exp1" add index.html,
-    Introduction.html etc., and modify the content of the templates
+-   Inside "src/lab" and "src/lab/exp1", add index.html,
+    Introduction.html etc. Modify the content of the templates
     accordingly as per your labs content.
 
--   After making the changes, run the lab to check, whether it has
-    been converted to UI-3.0 or not. If you followed the above steps
-    properly, you should be able to see your lab in the UI-3.0 format.
+-   After making changes, run the lab to verify the conversion to UI-3.0. 
 
     [[images/phy-sci.png]]
 
@@ -78,8 +76,8 @@
 
 -  Create index.html file and copy the Introduction.html file content to the
    index.html file.  Note : If the index.html file already exists with the old
-   UI content, take a backup of that file as index.html.bak and then create an
-   other index.html file.
+   UI content, take a backup of that file as index.html.bak and then create new 
+   index.html file.
 
 -  Edit the path inside all the html files in the following path
    "src/lab" and "src/lab/exp1".  Set the path inside the files. In
@@ -89,14 +87,16 @@
    it copies all the lab content and themes content to the build, when
    we run the make. So change the path of the files as per your lab.
  
--  Comment out the search box in all the html files.
+-  Comment out the "search box" in all html files.
    
--  Comment out the previous makefile and  update the makefile as "
-   https://github.com/Virtual-Labs/problem-solving-iiith/blob/master/src/makefile
-   " .
--  Finally run a make and run the lab in the browser to see all the
+-  Comment out previous makefile and update makefile as "
+   https://github.com/Virtual-Labs/problem-solving-iiith/blob/master/src/makefile" .
+   
+-  Finally, run a make and run the lab in the browser to see all the
    changes, which you have made. Now you should be able to see the lab
    converted to new ui-3.0.
 
+This conversion is to ensure consistency of look and feel with reference to main page. Responsive design and 
+cross browser compatibility are not available as part of this conversion. 
 
-*Note*: For any further queries please post at [[https://github.com/Virtual-Labs/engineers-forum][engineers-forum]] 
+*Note*: For any further queries, please post at [[https://github.com/Virtual-Labs/engineers-forum][engineers-forum]] 
