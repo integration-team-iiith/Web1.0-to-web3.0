@@ -78,7 +78,7 @@
    made consistent as per the main page.
 
 -  Go to
-   "https://github.com/vlead/vlabs-web-pages/tree/master/src/images/social" and
+   "https://github.com/vlead/vlabs-web-pages/tree/master/src/images/social " and
    copy "youtube.png" image to the "images/social" path to the lab repo you are
    working on.
   
