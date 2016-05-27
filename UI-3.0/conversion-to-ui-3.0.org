@@ -102,7 +102,7 @@
  
 -  Comment out the "search box" in all html files.
    
--  Comment out the previous makefile and with update "[[https://github.com/Virtual-Labs/physical-sciences-iiith/blob/master/src/makefile][new makefile]]" .
+-  Comment out the previous makefile and update with "[[https://github.com/Virtual-Labs/physical-sciences-iiith/blob/master/src/makefile][new makefile]]" .
    
 -  Finally, run a make and run the lab in the browser to see all the
    changes, which you have made. Now you should be able to see the lab
