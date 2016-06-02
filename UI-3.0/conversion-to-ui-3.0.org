@@ -20,8 +20,6 @@
   - Category 2- Convert a lab from UI-1.0 to UI-3.0 
   - Category 3- Convert a lab to UI-3.0, if the sources are partially updated
     or the lab is partially converted to UI-3.0
-  - Category 3- Convert a lab to UI-3.0, if the sources are partially updated or the lab
-    is partially converted to UI-3.0
   
   Before converting a lab please ensure the category your lab falls into and
   follow the corresponding instructions. 
