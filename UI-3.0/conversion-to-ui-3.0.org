@@ -73,10 +73,6 @@
      For the detailed information about the conversion and the changes made on
      UI-3.0 have been mentioned in [[Technical Observations of VLABS UI-3.0 web
      pages]].
-
-     For the detailed information about the conversion and the changes made on
-     UI-3.0 have been mentioned in [[Technical Observations of VLABS UI-3.0 web
-     pages]].
                                                                       
    - Update the new responsive footer in all the html files (path- "src/lab" )
      as per VLABS UI-3.0 landing page from the following link:
