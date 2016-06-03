@@ -188,7 +188,7 @@
  
  - Based on the mentioned points, VLABS UI-3.0 web pages are not fully
    responsive. However, the labs linked to the landing page with the VLABS
-   UI-1.0 web pages are not responsive at all. So,it is suggested that the
+   UI-1.0 web pages are not responsive at all. So, it is suggested that the
    conversion to VLABS UI-3.0 is done, to ensure consistency of look and feel
    with reference to the main page.
  - After conversion, your lab should match the directory structure as detailed
