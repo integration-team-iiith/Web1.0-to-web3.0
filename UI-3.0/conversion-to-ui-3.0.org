@@ -71,8 +71,7 @@
      required changes.
     
      For the detailed information about the conversion and the changes made on
-     UI-3.0 have been mentioned in [[Technical Observations of VLABS UI-3.0 web
-     pages]].
+     UI-3.0 have been mentioned in [[Technical Observations of VLABS UI-3.0 web pages]].
                                                                       
    - Update the new responsive footer in all the html files (path- "src/lab" )
      as per VLABS UI-3.0 landing page from the following link:
@@ -140,10 +139,10 @@
 
    - Tested the lab on various platforms( OS with different browsers).
   
-   - Used an online cross browser compatibility testing tool([[https://www.browserstack.com/][browserstack]]) to check the
-     responsive of the VLABS UI_3.0 web pages on different resolutions.  This tool also gives
-     the [[https://www.browserstack.com/screenshots?utm_campaign=onboarding&utm_medium=email&utm_source=welcome][screenshots]] of the browsers just by one click to check the responsiveness
-     of the website.
+   - Used an online cross browser compatibility testing tool([[https://www.browserstack.com/][browserstack]]) to
+     check the responsive of the VLABS UI_3.0 web pages on different
+     resolutions.  This tool also gives the [[https://www.browserstack.com/screenshots?utm_campaign=onboarding&utm_medium=email&utm_source=welcome][screenshots]] of the browsers just by
+     one click to check the responsiveness of the website.
 
    - Link to see the responsiveness of websites in [[https://www.browserstack.com/responsive?utm_campaign=onboarding&utm_medium=email&utm_source=welcome][mobiles and tablets.]]  
 
