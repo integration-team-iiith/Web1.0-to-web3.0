@@ -27,7 +27,6 @@
 * VLABS UI-3.0 Definition 
 
 ** Category 1-Develop a new lab to use VLABS UI-3.0 by following the lab structure described below.
-
 ** Lab Structure
    
    Before you start using VLABS UI 3.0 Toolkit, you need to understand the
@@ -74,9 +73,13 @@
      For the detailed information about the conversion and the changes made on
      UI-3.0 have been mentioned in [[Technical Observations of VLABS UI-3.0 web
      pages]].
+
+     For the detailed information about the conversion and the changes made on
+     UI-3.0 have been mentioned in [[Technical Observations of VLABS UI-3.0 web
+     pages]].
                                                                       
-   - Update the new responsive footer in all the html files (path- "src/lab" ) as
-     per VLABS UI-3.0 landing page from the following link:
+   - Update the new responsive footer in all the html files (path- "src/lab" )
+     as per VLABS UI-3.0 landing page from the following link:
      "https://github.com/vlead/vlabs-web-pages/blob/master/src/index.html "
 
    - Go to "
@@ -87,26 +90,27 @@
      size and footer has been changed in the Vlabs UI-3.0 landing page. so, all
      the pages should be made consistent as per the main page.
 
-   - Go to "https://github.com/vlead/vlabs-web-pages/tree/master/src/images/social"
-     and copy "youtube.png" image to the "images/social" path to the lab repo you are
-     working on.
+   - Go to
+     "https://github.com/vlead/vlabs-web-pages/tree/master/src/images/social"
+     and copy "youtube.png" image to the "images/social" path to the lab repo
+     you are working on.
 
-   - Update the new responsive footer in all the html files (path- "src/lab" ) as
-     per VLABS UI-3.0 landing page from the following link:
+   - Update the new responsive footer in all the html files (path- "src/lab" )
+     as per VLABS UI-3.0 landing page from the following link:
      "https://github.com/vlead/vlabs-web-pages/blob/master/src/index.html "
 
    - Go to "
      https://github.com/vlead/vlabs-web-pages/blob/master/src/css/style.css "
-     this path and copy the style.css file to the lab repo you are working on, to
-     this particular path "css" and remove the old "css/style.css" file.  This is
-     because css has been changed.  Like headers, subheaders, logo font size and
-     footer has been changed in the Vlabs landing page so, all the pages should
-     be made consistent as per the main page.
+     this path and copy the style.css file to the lab repo you are working on,
+     to this particular path "css" and remove the old "css/style.css" file.
+     This is because css has been changed.  Like headers, subheaders, logo font
+     size and footer has been changed in the Vlabs landing page so, all the
+     pages should be made consistent as per the main page.
 
    - Go to
-     "https://github.com/vlead/vlabs-web-pages/tree/master/src/images/social " and
-     copy "youtube.png" image to the "images/social" path to the lab repo you are
-     working on.
+     "https://github.com/vlead/vlabs-web-pages/tree/master/src/images/social "
+     and copy "youtube.png" image to the "images/social" path to the lab repo
+     you are working on.
   
    - Create green-icon folder under src/themes directory.
 
@@ -118,12 +122,13 @@
      UI-1.0 content, take a backup of that file as index.html.bak and then
      create new index.html file.
 
-   - Edit the path inside all the html files in the following path "src/lab" and
-     "src/lab/exp1".  Set the path inside the files. In the "src/lab" path remove
-     ../../ inside all the files. Inside the experiments it should be ../ path
-     should be given wherever it is required. This is because makefile is written
-     in a such a way that it copies all the lab content and themes content to the
-     build, when we run the make. So change the path of the files as per your lab.
+   - Edit the path inside all the html files in the following path "src/lab"
+     and "src/lab/exp1".  Set the path inside the files. In the "src/lab" path
+     remove ../../ inside all the files. Inside the experiments it should be
+     ../ path should be given wherever it is required. This is because makefile
+     is written in a such a way that it copies all the lab content and themes
+     content to the build, when we run the make. So change the path of the
+     files as per your lab.
  
    - Comment out the "search box" in all html files.
 
